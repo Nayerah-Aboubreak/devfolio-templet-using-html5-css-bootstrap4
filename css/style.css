@@ -1,0 +1,229 @@
+body
+{
+    font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+/*------------*/
+.home
+{
+    background-image: url(../img/intro-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 620px;
+}
+.home .layer
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+}
+.layer .container
+{
+    width: 100%;
+    height: 100%;
+}
+.container h1
+{
+    font-size: 4.5rem;
+    color: rgb(255, 255, 255);
+}
+/*-----------*/
+.about h5
+{
+    font-size: 2rem
+}
+.about p
+{
+    font-size: 1.25rem;
+}
+.about .line
+{
+    width: 100px;
+    height: 3px;
+    background-color: #0078ff;
+    margin-bottom: 10px;
+}
+.about .container
+{
+    background-color:white;
+}
+/*--------------*/
+.services h3
+{
+    font-size: 3rem
+}
+.services .line
+{
+    width: 50px;
+    height: 3px;
+    background-color: #0078ff;
+    margin: auto;
+}
+.services .fas
+{
+   justify-content: center;
+   align-content: center;
+   margin: auto;
+   padding: 15px;
+   border: #09c solid 8px;
+   width: 90px;
+}
+.services .fas:hover
+{
+   justify-content: center;
+   align-content: center;
+   margin: auto;
+   padding: 15px;
+   border: rgb(165, 208, 223) solid 8px;
+   width: 90px;
+   background-color: #09c;
+
+}
+/*--------------*/
+.counters
+{
+    background-image: url(../img/post-3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.counters .layer
+{
+    background-color: rgba(0, 120, 255, 0.7);
+}
+.counters i, .counters p
+{
+    color: white;
+}
+.counters .fas , .counters .far
+{
+   justify-content: center;
+   align-content: center;
+   margin: auto;
+   padding: 15px;
+   border: rgb(165, 208, 223) solid 8px;
+   width: 80px;
+   border-radius: 50%;
+}
+/*------------------*/
+.portfolio h3
+{
+    font-size: 3rem
+}
+.portfolio .line
+{
+    width: 50px;
+    height: 3px;
+    background-color: #0078ff;
+    margin: auto;
+}
+.portfolio .image
+{
+    overflow: hidden;
+}
+.portfolio img
+{
+    transition: transform ;
+    transition-delay: 0.5s;
+    transition-duration: 1s;
+}
+.portfolio img:hover
+{
+    transform: scale(1.25);
+}
+.portfolio i
+{
+    justify-content: center;
+   align-content: center;
+   margin: auto;
+   padding: 5px;
+   color: rgb(42, 97, 248);
+   border: rgb(42, 97, 248) solid 2px;
+   width: 30px;
+   border-radius: 50%;
+}
+/*--------------*/
+.carousel1
+{
+    background-image: url(../img/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.carousel1 .layer
+{
+    background-color: rgba(0, 120, 255, 0.7);
+}
+.carousel .fas
+{
+    background-color: cornsilk;
+    padding: 20px;
+    border-radius: 50%;
+}
+/*------------*/
+.blogs h3
+{
+    font-size: 3rem
+}
+.blogs .line
+{
+    width: 50px;
+    height: 3px;
+    background-color: #0078ff;
+    margin: auto;
+}
+.blogs .title
+{
+    background-color: #0078ff;
+    border-radius: 5px;
+    margin: auto;
+    position: relative;
+    bottom: 35px;
+    width: 30%;
+    padding-top: 10px !important;  
+}
+.title h6
+{
+    font-size: .7rem;
+    color: antiquewhite;
+}
+/*-------------*/
+.contact
+{
+    background-image: url(../img/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.contact .layer ,.contact .ft
+{
+    background-color: rgba(0, 120, 255, 0.7);
+}
+.contact .line
+{
+    width: 50px;
+    height: 3px;
+    background-color: #0078ff;
+}
+.contact p
+{
+    font-size: 1.25rem;
+}
+.contact .fab
+{
+   justify-content: center;
+   align-content: center;
+   margin: auto;
+   padding: 15px;
+   border: #09c solid 3px;
+   width: 50px;
+   border-radius: 50%;
+}
+.contact .btn
+{
+    border-radius: 25px;
+}
+.ft p
+{
+    color: seashell;
+    font-size: 1rem;
+
+}
